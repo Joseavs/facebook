@@ -20,3 +20,9 @@ def facef(request):
 
 def enlaces(request):
 	return render(request, 'enlaces.html')
+
+def salma(request):
+	if request.method == 'GET':
+		return render(request, 'tmobile.html')
+	else:
+		return redirect('https://www.xvideos.com/video70718627/salma_flores')

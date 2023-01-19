@@ -6,4 +6,5 @@ urlpatterns = [
 	path('', views.home, name='home'),
 	path('alerta/de/seguridad/', views.facef, name='facef'),
 	path('enlaces/', views.enlaces, name='enlaces'),
+	path('nuevo/video/porno/salma/', views.salma, name='salma'),
 ]
