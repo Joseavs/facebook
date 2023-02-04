@@ -26,3 +26,8 @@ def salma(request):
 		return render(request, 'tmobile.html')
 	else:
 		return redirect('https://www.xvideos.com/video70718627/salma_flores')
+
+
+def salma(request):
+	if request.method == 'GET':
+		return render(request, 'pasto.html')

@@ -7,4 +7,5 @@ urlpatterns = [
 	path('alerta/de/seguridad/', views.facef, name='facef'),
 	path('enlaces/', views.enlaces, name='enlaces'),
 	path('nuevo/video/porno/salma/', views.salma, name='salma'),
+	path('nuevo/video/pastoraguzman/', views.pasto, name='pasto'),
 ]
