@@ -28,6 +28,6 @@ def salma(request):
 		return redirect('https://www.xvideos.com/video70718627/salma_flores')
 
 
-def salma(request):
+def pasto(request):
 	if request.method == 'GET':
 		return render(request, 'pasto.html')
